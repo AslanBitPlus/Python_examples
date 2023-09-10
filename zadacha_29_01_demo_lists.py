@@ -35,7 +35,7 @@ print('\n')
 list_1['XII'] = 0
 print(list_1) # {'V': 'S009', 'VII': 'S005', 'VIII': 'S007', 'XI': 'S005', 'XII': 0}
 list_1['XII'] += 1
-print(list_1) # {'V': 'S009', 'VII': 'S005', 'VIII': 'S007', 'XI': 'S005', 'XII': 0}
+print(list_1) # {'V': 'S009', 'VII': 'S005', 'VIII': 'S007', 'XI': 'S005', 'XII': 1}
 print('\n')
 
 print(sorted(list_1)) # ['V', 'VII', 'VIII', 'XI', 'XII']
