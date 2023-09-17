@@ -11,7 +11,7 @@
 import random
 
 size = random.randint(5, 10)
-lst_1 = [random.randint(0, 20) for _ in range(size)]
+lst_1 = [random.randint(0, 10) for _ in range(size)]
 print(lst_1)
 
 count = 0
