@@ -1,9 +1,9 @@
 def input_fname():
-    fnam = str(input("Введите имя: "))
+    fnam = str(input("Введите имя: ")).capitalize()
     return fnam
 
 def input_lname():
-    lnam = str(input("Введите фамилию: "))
+    lnam = str(input("Введите фамилию: ")).capitalize()
     return lnam
 
 def input_telnum():
@@ -11,5 +11,5 @@ def input_telnum():
     return tel_nam
 
 def input_address():
-    adr = str(input("Введите адрес: "))
+    adr = str(input("Введите адрес: ")).title()
     return adr
